@@ -40,7 +40,7 @@ import allure
 
 class Test_001:
     def test_Credence_001(self):
-        driver = webdriver.Chrome()
+        driver = webdriver.Edge()
         driver.get("https://credence.in/")
         if driver.title == "Credence":
             driver.save_screenshot("D:\\Python\\Pytest_July0\\Screenshot\\Credence.PNG")
