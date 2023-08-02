@@ -14,7 +14,7 @@ import allure
 #             assert False
 #
 #     def test_CredenceUrl_002(self):
-#         driver = webdriver.Chrome()
+#         driver = webdriver.Edge()
 #         driver.get("https://credence.in/")
 #         if driver.title == "Credence":
 #             print("You are at credence.in")
